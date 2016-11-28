@@ -1,0 +1,25 @@
+{
+  "id":          "sdk.user.test-globalbuttons",
+  "name":        "TEST - Global Buttons",
+  "css":         [
+    "appStylesheet.css"
+  ],
+  "view":        "appView.js",
+  "permissions": ["application-management"],
+  "categoryId":  "WORKSPACE",
+  "date":        "2016-11-21",
+  "version":     "1.0.0",
+  "screens":     [
+    {
+      "id":       "test1",
+      "chambers": [
+        {
+          "id":      "test-chamber1",
+          "js":      "ContactsChamber.js",
+          "autorun": true,
+          "focus":   true
+        }
+      ]
+    }
+  ]
+}
